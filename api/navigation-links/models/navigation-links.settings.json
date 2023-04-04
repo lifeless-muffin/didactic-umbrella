@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navigation_links",
+  "info": {
+    "name": "NavigationLinks"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Label": {
+      "type": "string",
+      "required": true
+    },
+    "URL": {
+      "type": "string",
+      "required": true
+    },
+    "Position": {
+      "type": "integer",
+      "unique": false
+    },
+    "Slug": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}

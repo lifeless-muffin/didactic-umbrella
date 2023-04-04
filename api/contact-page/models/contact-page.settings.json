@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "name": "ContactPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Email": {
+      "type": "email"
+    },
+    "SocialMediaLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "socials.social-media-links"
+    },
+    "Staff": {
+      "type": "component",
+      "repeatable": true,
+      "component": "staff-details.staff"
+    }
+  }
+}

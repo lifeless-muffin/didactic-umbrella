@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_socials_social_media_links",
+  "info": {
+    "name": "SocialMediaLinks",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string",
+      "required": true
+    },
+    "URL": {
+      "type": "string",
+      "required": true
+    },
+    "For": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
